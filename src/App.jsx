@@ -12,8 +12,11 @@ function App() {
   return (
     <>
       <Navbar/>
+      <div className="pt-20">
+      <Passcards/>
+      </div>
       {/* <Portfolio/> */}
-     <Passcards/>
+     
     </>
   )
 }
